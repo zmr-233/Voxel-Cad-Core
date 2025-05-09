@@ -1,0 +1,13 @@
+[package]
+name = "voxel_cad"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bitflags = "2.9.0"
+enum-map = "2.7.3"
+logos = "0.15.0"
+quartz_nbt = "0.2.9"
+
+[lib]
+path = "src/lib/mod.rs"
