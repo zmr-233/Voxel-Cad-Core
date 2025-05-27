@@ -10,9 +10,9 @@ default-members = ["code/voxel-nano"]
 # edition = "2024"
 
 [workspace.package]
-authors = ["zmr-233"]
-description = "GPU-based voxel CAD kernel"
 version = "0.1.0"
+authors = ["zmr-233 <zmr_233@outlook.com>"]
+description = "GPU-based voxel CAD kernel"
 edition = "2024"
 
 
@@ -24,6 +24,11 @@ enum-map = "2.7.3"
 logos = "0.15.0"
 quartz_nbt = "0.2.9"
 wgpu = "25.0.0"
+async-trait = "0.1"
+thiserror = "1.0"
+tokio = { version = "1.0", features = ["macros", "rt-multi-thread"] }
+glam = { version = "0.30.3", features = ["bytemuck"] }
+pollster = "0.2"
 
 # [workspace.lints.rust]
 # unsafe_code = "forbid"
